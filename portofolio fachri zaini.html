@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portofolio — Fachri Zaini</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#1f6feb;--muted:#9aa8bf;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; background:linear-gradient(180deg,#071025 0%, #0b1220 100%); color:#e6eef8; line-height:1.5}
+    .wrap{max-width:980px;margin:40px auto;padding:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:14px; padding:22px; box-shadow: 0 6px 24px rgba(2,6,23,0.6);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#00c2a8);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#04203a}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .meta{margin-left:auto;text-align:right}
+    .btn{display:inline-block;padding:8px 12px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .section{background:var(--glass);padding:14px;border-radius:12px}
+    h2{font-size:16px;margin:0 0 8px}
+    .muted{color:var(--muted);font-size:13px}
+
+    ul.clean{list-style:none;padding:0;margin:0}
+    ul.clean li{margin-bottom:10px}
+    .tag{display:inline-block;background:rgba(255,255,255,0.04);padding:6px 8px;border-radius:8px;font-size:12px;color:var(--muted);margin:6px 6px 0 0}
+
+    .timeline{display:flex;flex-direction:column;gap:12px}
+    .job{padding:10px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+    .job .title{font-weight:700}
+    .job .meta{font-size:13px;color:var(--muted)}
+    .skills{display:flex;flex-wrap:wrap}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.meta{text-align:left;margin-top:8px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="avatar">FZ</div>
+        <div>
+          <h1>Fachri Zaini</h1>
+          <p class="lead">Lulusan S1 Teknik Informatika — Web Developer & HR Practitioner</p>
+          <p class="muted">Jakarta Timur • +62 838 0606 6186 • fachrizaini19@gmail.com</p>
+          <p style="margin-top:6px"><a class="btn" href="#contact">Hubungi</a> <a class="tag" href="https://www.linkedin.com/in/fachrizaini" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="meta">
+          <div class="muted">Availability</div>
+          <div style="font-weight:700;margin-top:6px">Open to opportunities</div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <section class="section">
+            <h2>Tentang Saya</h2>
+            <p class="muted">Saya adalah lulusan S1 Teknik Informatika dari Universitas Muhammadiyah Prof. Dr. HAMKA dengan pengalaman di bidang Teknologi Informasi (IT) dan Sumber Daya Manusia (HR). Berpengalaman dalam pengembangan web, pemeliharaan infrastruktur IT, serta manajemen SDM dan rekrutmen. Memiliki kemampuan analisis, komunikasi, dan kepemimpinan yang baik untuk mendukung kelancaran operasional organisasi.</p>
+          </section>
+
+          <section class="section" style="margin-top:12px">
+            <h2>Pengalaman Kerja</h2>
+            <div class="timeline">
+              <div class="job">
+                <div class="title">Staff Administrasi / Pengawas Pemilu Kecamatan Duren Sawit</div>
+                <div class="meta">Jun 2024 – Feb 2025</div>
+                <ul class="clean" style="margin-top:8px;color:var(--muted)">
+                  <li>Mengawasi tahapan pelaksanaan pemilu di tingkat kecamatan.</li>
+                  <li>Berkoordinasi dengan Panwaslu Kota dan membantu penyelesaian sengketa.</li>
+                  <li>Edukasi masyarakat tentang pemilu yang jujur dan adil.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="title">Leader of Human Resource Division Intern — PT Sinergi Inovasi Tekno</div>
+                <div class="meta">Nov 2023 – Feb 2024</div>
+                <ul class="clean" style="margin-top:8px;color:var(--muted)">
+                  <li>Merancang kebijakan SDM, memimpin tim HR, dan melakukan evaluasi proses.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="title">Assistant Lead of IT Talent Acquisition Intern — PT Talenta Sinergi Group</div>
+                <div class="meta">Jul 2023 – Nov 2023</div>
+                <ul class="clean" style="margin-top:8px;color:var(--muted)">
+                  <li>Melatih tim akuisisi, bertindak sebagai call center, dan mengambil keputusan rekrutmen.</li>
+                </ul>
+              </div>
+
+              <div class="job">
+                <div class="title">Web Developer Intern — PT Dian Permata Omega</div>
+                <div class="meta">Feb 2022 – Feb 2023</div>
+                <ul class="clean" style="margin-top:8px;color:var(--muted)">
+                  <li>Mengembangkan situs web responsif, optimasi basis data, dan pengujian otomatis.</li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="section" style="margin-top:12px">
+            <h2>Organisasi & Kepemimpinan</h2>
+            <ul class="clean" style="color:var(--muted)">
+              <li><b>Sekretaris Divisi Komunikasi & Informasi</b> — BEM FT UHAMKA (2021 – 2022)</li>
+              <li><b>Kepala Divisi Komunikasi & Informasi</b> — HMTI UHAMKA (2020 – 2021)</li>
+              <li><b>Content Manager</b> — Indonesia Millenial Connect (2020 – 2021)</li>
+            </ul>
+          </section>
+
+          <section class="section" id="contact" style="margin-top:12px">
+            <h2>Hubungi Saya</h2>
+            <p class="muted">Email: <a href="mailto:fachrizaini19@gmail.com">fachrizaini19@gmail.com</a><br/>Telepon: +62 838 0606 6186</p>
+            <p class="muted"></p>
+          </section>
+        </main>
+
+        <aside>
+          <section class="section">
+            <h2>Keahlian Teknis</h2>
+            <div class="skills">
+              <div class="tag">HTML</div>
+              <div class="tag">CSS</div>
+              <div class="tag">JavaScript</div>
+              <div class="tag">Python</div>
+              <div class="tag">Java</div>
+              <div class="tag">C++</div>
+              <div class="tag">MySQL</div>
+              <div class="tag">PostgreSQL</div>
+              <div class="tag">Photoshop</div>
+              <div class="tag">Figma</div>
+              <div class="tag">Trello</div>
+            </div>
+          </section>
+
+          <section class="section" style="margin-top:12px">
+            <h2>Kemampuan Personal</h2>
+            <ul class="clean muted">
+              <li>Komunikasi Efektif</li>
+              <li>Kerja Sama Tim</li>
+              <li>Manajemen Waktu</li>
+              <li>Adaptif & Inisiatif</li>
+              <li>Kedisiplinan & Tanggung Jawab</li>
+              <li>Kepemimpinan</li>
+            </ul>
+          </section>
+
+          <section class="section" style="margin-top:12px;text-align:center">
+            <h2>Unduh</h2>
+            <p class="muted">Versi PDF portofolio:</p>
+            <p><a class="btn" href="/sandbox/mnt/data/Portofolio_Fachri_Zaini.pdf" target="_blank">Download PDF</a></p>
+          </section>
+        </aside>
+      </div>
+
+      <footer>
+        
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
